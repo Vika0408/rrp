@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a6fb13e-8706-47e1-8fae-aa61b1bfaa62" name="f2x" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\DELL\Downloads\ResumeParser-master\rp" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
