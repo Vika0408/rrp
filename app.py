@@ -1,17 +1,16 @@
-import spire.doc
-from flask import Flask, render_template, request, send_file, flash, url_for, after_this_request, redirect
 import os
+import re
 import uuid
-import docx
 from datetime import datetime
-from werkzeug.utils import secure_filename
+
 import PyPDF2
-from docx import Document
+import docx
 import pandas as pd
+import spire.doc
+from flask import Flask, render_template, request, send_file, url_for, redirect
 from pathlib2 import Path
 from spire.doc import *
-from spire.doc.common import *
-import re
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
